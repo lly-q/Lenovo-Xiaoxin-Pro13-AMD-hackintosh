@@ -10,8 +10,11 @@ Modified from https://github.com/zabdottler/Lenovo-Yoga-16S-hackintosh
 `ventura` 分支部分配置参考了 [@SuaveZhou](https://github.com/SuaveZhou) 的 https://github.com/SuaveZhou/RedmiBook-Pro-14S-hackintosh  
 Part of the configuration of the `ventura` branch refers to https://github.com/SuaveZhou/RedmiBook-Pro-14S-hackintosh
 
-与 Monterey 相比，触摸板暂无法使用，且 [NootedRed](https://github.com/NootInc/NootedRed) 尚处于早期开发阶段，稳定性可能较差  
-Compared to Monterey, the touchpad is not yet available and [NootedRed](https://github.com/NootInc/NootedRed) is still in early development and may be less stable
+与 Monterey 相比，触摸板和蓝牙暂无法使用，且 [NootedRed](https://github.com/NootInc/NootedRed) 尚处于早期开发阶段，稳定性可能较差  
+Compared to Monterey, the touchpad and bluetooth are not yet available and [NootedRed](https://github.com/NootInc/NootedRed) is still in early development and may be less stable
+
+如果**冷启动**后黑屏无法显示画面你可能需要尝试**热启动**，即在 Windows 内选择**重启**而非关机再开机  
+If screen does not light up after a **cold boot** (just meet a black screen), you may need to try a **warm boot**, i.e. use **Reboot** instead of shutting down then booting in Windows
 
 如果你在该机型黑苹果的使用过程中发现任何问题或解决办法，欢迎提交 issue 或 Pull Request  
 If you find any problems or solution on this device, welcome to open an issue or PR
